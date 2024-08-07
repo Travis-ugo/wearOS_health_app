@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="health_permissions">
+        <item>androidx.health.permission.HeartRate.READ</item>
+        <item>androidx.health.permission.HeartRate.WRITE</item>
+        <item>androidx.health.permission.ActivityRecognition.READ</item>
+        <item>androidx.health.permission.ActivityRecognition.WRITE</item>
+        <item>androidx.health.permission.BodySensors.READ</item>
+        <item>androidx.health.permission.BodySensors.WRITE</item>
+    </array>
+
+</resources>

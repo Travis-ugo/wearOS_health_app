@@ -1,0 +1,36 @@
+[versions]
+agp = "8.5.1"
+kotlin = "1.9.0"
+playServicesWearable = "18.0.0"
+composeBom = "2024.04.01"
+composeMaterial = "1.2.1"
+composeFoundation = "1.2.1"
+activityCompose = "1.7.2"
+coreSplashscreen = "1.0.1"
+healthConnectClient = "1.0.0-alpha03"
+healthServicesClient = "1.1.0-alpha03"
+material3 = "1.3.0-beta05"
+materialIconsCore = "1.7.0-beta06"
+materialIconsExtended = "1.7.0-beta06"
+
+[libraries]
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+compose-material = { group = "androidx.wear.compose", name = "compose-material", version.ref = "composeMaterial" }
+compose-foundation = { group = "androidx.wear.compose", name = "compose-foundation", version.ref = "composeFoundation" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
+health-connect-client = { group = "androidx.health", name = "health-connect-client", version.ref = "healthConnectClient" }
+health-services-client = { group = "androidx.health", name = "health-services-client", version.ref = "healthServicesClient" }
+material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
+material-icons-core = { group = "androidx.compose.material", name = "material-icons-core", version.ref = "materialIconsCore" }
+material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "materialIconsExtended" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
